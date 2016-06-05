@@ -16,7 +16,7 @@ $('#formulario').submit(function() {
 		 	/// si la validacion es correcta, muestra la pantalla "home"
 			//$.mobile.changePage("#home")
 			//window.location='index_categorias.html?user='+btoa(respuestaServer.user)+btoa('-'+respuestaServer.dni);
-			window.location='index_categorias.html?user='+btoa(respuestaServer.user)+btoa('-'+respuestaServer.dni);
+			window.location='index_categorias.html?user='+btoa(respuestaServer.user);
 			localStorage.botonLogin="true";
 			localStorage.usuario=datosUsuario;
 			localStorage.password=datosPassword;
