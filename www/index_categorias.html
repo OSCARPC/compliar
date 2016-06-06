@@ -88,8 +88,9 @@ if (params['user']) {
 console.log('El valor del parámetro variable es: '+params['user']);
 var username=params['user'];
 var usser= atob(username);
-var dnix= usser.split("-");
-document.getElementById("dni").value=dnix[1];
+//var dnix= usser.split("-");
+var dnni=localStorage.usuario;
+document.getElementById("dni").value=dnni;
 
 //alert(params['user']);
 //var res = username.split("%20");
